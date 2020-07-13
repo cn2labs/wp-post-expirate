@@ -1,6 +1,6 @@
 <?php
 // Check if a post is expired
-function post_is_expired($expirationDate) {
+function post_is_expirate($expirationDate) {
   // Set correct timezone
   date_default_timezone_set('Europe/Berlin');
 
